@@ -1,0 +1,787 @@
+{
+	"id": "b9f67836-389e-c147-4df9-79235e95e325",
+	"name": "albalad",
+	"description": "",
+	"order": [
+		"72e0e3f9-dd67-111f-a185-bf6e92a6b9b0",
+		"1c476d06-8453-33a4-724a-4ba1833d8da7",
+		"b165bfc3-c097-a85b-6959-9901d7477bc2",
+		"5cde4c21-215a-718f-d907-7913330112a7",
+		"0bf0cf0f-bdb8-fe65-8728-cea3716c14c8",
+		"f8d563d1-a2d1-f530-fe17-159482d5d8cf",
+		"ef32cbf5-123b-41f2-6724-8a285ff96a2c",
+		"fe020f24-3825-b48c-3346-860ab028764a",
+		"e8ee3df7-c14a-2198-d10f-bbf976a1a523",
+		"e0ea1fbb-3623-af92-9c08-92cb6cd5b0fb",
+		"87457ed8-f9e8-ddad-5bc4-64cc27753a83",
+		"115efb62-30d1-de8c-55cf-04a2c484ff23",
+		"9e3d4b1c-051d-89de-0742-2bbea572c747",
+		"114ea926-94b2-89de-8ce6-28b68ca796ed",
+		"6de95a90-0f35-bae7-722d-b2b257537dca",
+		"c361b99b-551b-46ca-6f00-959179f3ae40",
+		"279e5061-eb7e-ead8-c1bd-21ebbc367c33",
+		"a84c8c60-784e-9af9-b00b-6fa9c55568d5"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1593016441909,
+	"owner": "9929609",
+	"public": false,
+	"requests": [
+		{
+			"id": "0bf0cf0f-bdb8-fe65-8728-cea3716c14c8",
+			"headers": "",
+			"headerData": [],
+			"url": "https://eltamiuz.net/albalad/api/profile",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "328",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600736675162,
+			"name": "profile",
+			"description": "",
+			"collectionId": "b9f67836-389e-c147-4df9-79235e95e325",
+			"responses": []
+		},
+		{
+			"id": "114ea926-94b2-89de-8ce6-28b68ca796ed",
+			"headers": "",
+			"headerData": [],
+			"url": "https://eltamiuz.net/albalad/api/home",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600736770480,
+			"name": "home",
+			"description": "",
+			"collectionId": "b9f67836-389e-c147-4df9-79235e95e325",
+			"responses": []
+		},
+		{
+			"id": "115efb62-30d1-de8c-55cf-04a2c484ff23",
+			"headers": "",
+			"headerData": [],
+			"url": "https://eltamiuz.net/albalad/api/settinginfo",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600736747860,
+			"name": "settinginfo",
+			"description": "",
+			"collectionId": "b9f67836-389e-c147-4df9-79235e95e325",
+			"responses": []
+		},
+		{
+			"id": "1c476d06-8453-33a4-724a-4ba1833d8da7",
+			"headers": "",
+			"headerData": [],
+			"url": "https://eltamiuz.net/albalad/api/forgetpassword",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "phone",
+					"value": "1111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600736643622,
+			"name": "forgetpassword",
+			"description": "",
+			"collectionId": "b9f67836-389e-c147-4df9-79235e95e325",
+			"responses": []
+		},
+		{
+			"id": "279e5061-eb7e-ead8-c1bd-21ebbc367c33",
+			"headers": "",
+			"headerData": [],
+			"url": "https://eltamiuz.net/albalad/api/deletenotification",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "328",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "notification_id",
+					"value": "309",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600736802126,
+			"name": "deletenotification",
+			"description": "",
+			"collectionId": "b9f67836-389e-c147-4df9-79235e95e325",
+			"responses": []
+		},
+		{
+			"id": "5cde4c21-215a-718f-d907-7913330112a7",
+			"headers": "",
+			"headerData": [],
+			"url": "https://eltamiuz.net/albalad/api/rechangepass",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "new_password",
+					"value": "12345678",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone",
+					"value": "1111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600736663068,
+			"name": "rechangepass",
+			"description": "",
+			"collectionId": "b9f67836-389e-c147-4df9-79235e95e325",
+			"responses": []
+		},
+		{
+			"id": "6de95a90-0f35-bae7-722d-b2b257537dca",
+			"headers": "",
+			"headerData": [],
+			"url": "https://eltamiuz.net/albalad/api/makeorder",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "328",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "total",
+					"value": "100",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "paid",
+					"value": "0",
+					"description": "0=>غير مدفوع , 1 => مدفوع ",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "mmmm",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone",
+					"value": "11111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "address",
+					"value": "wwww",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mobile",
+					"value": "111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "deliver",
+					"value": "توصيل للبيت",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "date",
+					"value": "5/12/2020",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "time",
+					"value": "من العصر للمغرب",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "notes",
+					"value": "تفااااااااااااااااصيل",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "orderarr",
+					"value": "[{\"item_id\":50,\"qty\":1,\"price\":3250,\"cutting_id\":11,\"weight_id\":13,\"skin\":0,\"packaging\":1,\"minced\":5,\"bowels\":7,\"moqalqal\":8}, {\"item_id\":50,\"qty\":1,\"price\":3250,\"cutting_id\":11,\"weight_id\":13,\"skin\":0,\"packaging\":1,\"minced\":5,\"bowels\":7,\"moqalqal\":8}]",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600736782375,
+			"name": "makeorder",
+			"description": "skin(شلوطة او سلخ بتاخد قيمة 0 او 1)\nminced(كم كيلو مفروم)\npackaging(التغليف وبتاخد قيمة 0 او 1)\n",
+			"collectionId": "b9f67836-389e-c147-4df9-79235e95e325",
+			"responses": []
+		},
+		{
+			"id": "72e0e3f9-dd67-111f-a185-bf6e92a6b9b0",
+			"headers": "",
+			"headerData": [],
+			"url": "https://eltamiuz.net/albalad/api/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "phone",
+					"value": "11111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "firebase_token",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600736631567,
+			"name": "login",
+			"description": "",
+			"collectionId": "b9f67836-389e-c147-4df9-79235e95e325",
+			"responses": []
+		},
+		{
+			"id": "87457ed8-f9e8-ddad-5bc4-64cc27753a83",
+			"headers": "",
+			"headerData": [],
+			"url": "https://eltamiuz.net/albalad/api/register",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "osamaak",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mobile",
+					"value": "111111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone",
+					"value": "1111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "address",
+					"value": "faisal-gizajj",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "firebase_token",
+					"value": "11111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600736739143,
+			"name": "register",
+			"description": "",
+			"collectionId": "b9f67836-389e-c147-4df9-79235e95e325",
+			"responses": []
+		},
+		{
+			"id": "9e3d4b1c-051d-89de-0742-2bbea572c747",
+			"headers": "",
+			"headerData": [],
+			"url": "https://eltamiuz.net/albalad/api/addtransfer",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "osaam",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone",
+					"value": "11111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "bill_number",
+					"value": "14022020",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "image",
+					"value": "als3edy1.png",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "328",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600736763107,
+			"name": "addtransfer",
+			"description": "",
+			"collectionId": "b9f67836-389e-c147-4df9-79235e95e325",
+			"responses": []
+		},
+		{
+			"id": "a84c8c60-784e-9af9-b00b-6fa9c55568d5",
+			"headers": "",
+			"headerData": [],
+			"url": "https://eltamiuz.net/albalad/api/allcities",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "item_id",
+					"value": "6",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "city_id",
+					"value": "5",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600736811046,
+			"name": "allcities",
+			"description": "",
+			"collectionId": "b9f67836-389e-c147-4df9-79235e95e325",
+			"responses": []
+		},
+		{
+			"id": "b165bfc3-c097-a85b-6959-9901d7477bc2",
+			"headers": "",
+			"headerData": [],
+			"url": "https://eltamiuz.net/albalad/api/activcode",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "phone",
+					"value": "1111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "forgetcode",
+					"value": "4609",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600736653746,
+			"name": "activcode",
+			"description": "",
+			"collectionId": "b9f67836-389e-c147-4df9-79235e95e325",
+			"responses": []
+		},
+		{
+			"id": "c361b99b-551b-46ca-6f00-959179f3ae40",
+			"headers": "",
+			"headerData": [],
+			"url": "https://eltamiuz.net/albalad/api/showitem",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "item_id",
+					"value": "6",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "city_id",
+					"value": "5",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600736790854,
+			"name": "showitem",
+			"description": "",
+			"collectionId": "b9f67836-389e-c147-4df9-79235e95e325",
+			"responses": []
+		},
+		{
+			"id": "e0ea1fbb-3623-af92-9c08-92cb6cd5b0fb",
+			"headers": "",
+			"headerData": [],
+			"url": "https://eltamiuz.net/albalad/api/myorders",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "328",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600736729853,
+			"name": "myorders",
+			"description": "",
+			"collectionId": "b9f67836-389e-c147-4df9-79235e95e325",
+			"responses": []
+		},
+		{
+			"id": "e8ee3df7-c14a-2198-d10f-bbf976a1a523",
+			"headers": "",
+			"headerData": [],
+			"url": "https://eltamiuz.net/albalad/api/showorder",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "order_id",
+					"value": "196",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600736712933,
+			"name": "showorder",
+			"description": "",
+			"collectionId": "b9f67836-389e-c147-4df9-79235e95e325",
+			"responses": []
+		},
+		{
+			"id": "ef32cbf5-123b-41f2-6724-8a285ff96a2c",
+			"headers": "",
+			"headerData": [],
+			"url": "https://eltamiuz.net/albalad/api/mynotification",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "328",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600736692539,
+			"name": "my notifications",
+			"description": "",
+			"collectionId": "b9f67836-389e-c147-4df9-79235e95e325",
+			"responses": []
+		},
+		{
+			"id": "f8d563d1-a2d1-f530-fe17-159482d5d8cf",
+			"headers": "",
+			"headerData": [],
+			"url": "https://eltamiuz.net/albalad/api/updateprofile",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "328",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "osam",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mobile",
+					"value": "11111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone",
+					"value": "11111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600736683573,
+			"name": "updateprofile",
+			"description": "",
+			"collectionId": "b9f67836-389e-c147-4df9-79235e95e325",
+			"responses": []
+		},
+		{
+			"id": "fe020f24-3825-b48c-3346-860ab028764a",
+			"headers": "",
+			"headerData": [],
+			"url": "https://eltamiuz.net/albalad/api/updatefirebasebyid",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "328",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "firebase_token",
+					"value": "111111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600736702088,
+			"name": "updatefirebasetoken",
+			"description": "",
+			"collectionId": "b9f67836-389e-c147-4df9-79235e95e325",
+			"responses": []
+		}
+	]
+}
